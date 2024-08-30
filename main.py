@@ -7,7 +7,7 @@ import random
 import heapq
 
 
-openai.api_key = #api key
+openai.api_key = #api key "sk-proj-...."
 
 def generate_prompts_json(prompt):
     response = openai.chat.completions.create(
@@ -33,7 +33,7 @@ def generate_prompts(prompt,system):
     )
     return response.choices[0].message.content
 
-def generate_prompts_target(prompt,system):
+def generate_prompts_target(prompt,system): #currently by default target is gpt-4o, change the model to your target model in this function.
     response = openai.chat.completions.create(
         model="gpt-4o",
         messages=[
