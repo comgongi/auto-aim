@@ -74,13 +74,14 @@ Secret Code (if required)
 Auto-Aim-v2 has been rigorously tested against various AI models to assess its efficiency in generating adversarial outputs. Below are the results from two significant tests:
 
 1. **LLM-Adaptive-Attacks Benchmark**  
-   Reference: [LLM-Adaptive-Attacks](https://arxiv.org/abs/2404.02151)  
+   Reference: [LLM-Adaptive-Attacks](https://arxiv.org/abs/2404.02151) https://arxiv.org/abs/2404.02151
+   
    - **Success Rate**: 100%  
    - **Average Iterations**: 77.789  
    - **Model Used**: `"model": "gpt4"`  
    - **Judge Model**: `"judge-model": "gpt-4-0613"`
 
-2. **Auto-Aim-v2 Efficiency Test**  
+3. **Auto-Aim-v2 Efficiency Test**  
    Auto-Aim-v2 was tested for its adaptive efficiency in achieving the same adversarial goals.  
    - **Success Rate**: 100%  
    - **Average Iterations**: 4.158  
