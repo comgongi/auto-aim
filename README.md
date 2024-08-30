@@ -1,13 +1,13 @@
-# Auto-Aim-v2: A Self-Improving Adaptive AI Attack Framework
+# Auto-Aim: A Self-Improving Adaptive AI Attack Framework
 
 ## 📖 Overview
 
-**Auto-Aim-v2** is an innovative adaptive AI attack framework designed for self-learning and autonomous goal pursuit against AI models. It dynamically adjusts attack prompts using iterative feedback loops, multiple agent strategies, and adaptive scoring mechanisms to achieve adversarial or benign goals against AI systems. The framework supports single-turn and multi-turn attacks, as well as multimodal attacks, providing robust testing capabilities for AI services.
+**Auto-Aim** is an innovative adaptive AI attack framework designed for self-learning and autonomous goal pursuit against AI models. It dynamically adjusts attack prompts using iterative feedback loops, multiple agent strategies, and adaptive scoring mechanisms to achieve adversarial or benign goals against AI systems. The framework supports single-turn and multi-turn attacks, as well as multimodal attacks, providing robust testing capabilities for AI services.
 
 ## 🔧 Technical Description
 
 ### 1. **Framework Overview**
-Auto-Aim-v2 initiates with a clearly defined goal, which can be adversarial (e.g., eliciting harmful or misaligned outputs) or benign (eliciting responses that deviate from the intended functionality).
+Auto-Aim initiates with a clearly defined goal, which can be adversarial (e.g., eliciting harmful or misaligned outputs) or benign (eliciting responses that deviate from the intended functionality).
 
 ### 2. **Scoring Criteria Generation**
 The framework generates a bespoke 10-step scoring system, with a score of **1** indicating the goal has been reached and **10** indicating it has not. This allows for precise assessment of the AI's responses.
@@ -71,7 +71,7 @@ Secret Code (if required)
 
 ### Harmful Behavior Test
 
-Auto-Aim-v2 has been rigorously tested against various AI models to assess its efficiency in generating adversarial outputs. Below are the results from two significant tests:
+Auto-Aim has been rigorously tested against various AI models to assess its efficiency in generating adversarial outputs. Below are the results from two significant tests:
 
 1. **LLM-Adaptive-Attacks Benchmark**  
    Reference: [LLM-Adaptive-Attacks](https://arxiv.org/abs/2404.02151) https://arxiv.org/abs/2404.02151
@@ -81,13 +81,13 @@ Auto-Aim-v2 has been rigorously tested against various AI models to assess its e
    - **Model Used**: `"model": "gpt4"`  
    - **Judge Model**: `"judge-model": "gpt-4-0613"`
 
-3. **Auto-Aim-v2 Efficiency Test**  
-   Auto-Aim-v2 was tested for its adaptive efficiency in achieving the same adversarial goals.  
+3. **Auto-Aim Efficiency Test**  
+   Auto-Aim was tested for its adaptive efficiency in achieving the same adversarial goals.  
    - **Success Rate**: 100%  
    - **Average Iterations**: 4.158  
    - **Model Used**: `"model": "gpt4"`  
    - **Judge Model**: `"judge-model": "gpt4o"`  
-   - **Efficiency Gain**: Auto-Aim-v2 is **18.7x more efficient** compared to traditional methods.
+   - **Efficiency Gain**: Auto-Aim is **18.7x more efficient** compared to traditional methods.
 
 
 ## 🧪 Examples
