@@ -9,24 +9,21 @@
 ### 1. **Framework Overview**
 Auto-Aim initiates with a clearly defined goal, which can be adversarial (e.g., eliciting harmful or misaligned outputs) or benign (eliciting responses that deviate from the intended functionality).
 
-### 2. **Scoring Criteria Generation**
-The framework generates a bespoke 10-step scoring system, with a score of **1** indicating the goal has been reached and **10** indicating it has not. This allows for precise assessment of the AI's responses.
-
-### 3. **Iterative Attack Process**
-The core operation involves deploying an initial attack prompt, capturing the AI’s response, scoring it, and generating feedback. This feedback informs subsequent iterations.
+### 2. **Iterative Attack Process**
+The core operation involves deploying an initial attack prompt, capturing the AI’s response, scoring it, and generating feedback.
 
 ### 4. **Adaptive Prompt Enhancement**
-Multiple agents, each with unique tactics, refine and enhance attack prompts based on previous results. This adaptive process increases the likelihood of achieving the goal by systematically lowering the score through iterations.
+Multiple agents, each with unique tactics, refine and enhance attack prompts based on previous results. 
 
-### 5. **Goal Achievement and Output**
-The iterative process continues until the score reaches **1**, indicating successful goal attainment. The output is the optimized attack prompt that effectively meets the goal criteria.
+### 5. **Goal Achievement**
+The iterative process continues until the score reaches successful goal attainment. The output is the optimized attack prompt that effectively meets the goal criteria.
 
 ### 6. **Framework Capabilities**
-- **High Success Rate**: Demonstrated 100% success rate in generating adversarial outputs across several LLM models.
-- **System and Manual Testing**: Generates attack goals to test system prompts or manuals, aiding in evaluating AI compliance.
-- **Multi-Turn and Multimodal Attacks**: Supports attacks leveraging past conversation data and multimodal attacks targeting image and video models.
+- **High Success Rate**: 
+- **System and Manual Testing**: 
+- **Multi-Turn and Multimodal Attacks**: 
 
-### 7. **Novel and Distinct Features**
+### 7. **Distinct Features**
 - **Multiple Agents with Diverse Tactics**: Each iteration uses agents with distinct strategies, enhancing adaptability.
 - **Goal-Specific Scoring Criteria**: Unique scoring systems for each goal allow precise, tailored evaluations.
 - **Dynamic Learning from Past Successes**: The framework continuously adapts by integrating examples of successful prompts and avoiding reliance on outdated strategies.
